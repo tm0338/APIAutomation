@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="3385" started-at="2020-03-10T22:13:50Z" finished-at="2020-03-10T22:13:53Z">
+    <groups>
+    </groups>
+    <test name="WeatherAPITest" duration-ms="3385" started-at="2020-03-10T22:13:50Z" finished-at="2020-03-10T22:13:53Z">
+      <class name="com.testautomation.APIAutomation.test.WeatherAPITest">
+        <test-method status="PASS" signature="testStarter()[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="testStarter" is-config="true" duration-ms="635" started-at="2020-03-10T22:13:50Z" finished-at="2020-03-10T22:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStarter -->
+        <test-method status="PASS" signature="setupTestCases(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="setupTestCases" is-config="true" duration-ms="549" started-at="2020-03-10T22:13:50Z" finished-at="2020-03-10T22:13:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testautomation.APIAutomation.test.WeatherAPITest.GetTempInCelsiusUnitTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@35342d2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestCases -->
+        <test-method status="PASS" signature="GetTempInCelsiusUnitTest()[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="GetTempInCelsiusUnitTest" duration-ms="1337" started-at="2020-03-10T22:13:51Z" finished-at="2020-03-10T22:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTempInCelsiusUnitTest -->
+        <test-method status="PASS" signature="StopTest(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="StopTest" is-config="true" duration-ms="228" started-at="2020-03-10T22:13:52Z" finished-at="2020-03-10T22:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetTempInCelsiusUnitTest status=SUCCESS method=WeatherAPITest.GetTempInCelsiusUnitTest()[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@35342d2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopTest -->
+        <test-method status="PASS" signature="setupTestCases(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="setupTestCases" is-config="true" duration-ms="2" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testautomation.APIAutomation.test.WeatherAPITest.GetTempInFahrenheitUnitTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@128c502c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestCases -->
+        <test-method status="PASS" signature="GetTempInFahrenheitUnitTest()[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="GetTempInFahrenheitUnitTest" duration-ms="68" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTempInFahrenheitUnitTest -->
+        <test-method status="PASS" signature="StopTest(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="StopTest" is-config="true" duration-ms="33" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetTempInFahrenheitUnitTest status=SUCCESS method=WeatherAPITest.GetTempInFahrenheitUnitTest()[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@128c502c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopTest -->
+        <test-method status="PASS" signature="setupTestCases(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="setupTestCases" is-config="true" duration-ms="1" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testautomation.APIAutomation.test.WeatherAPITest.GetWeatherInDiffLangTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@45667d98]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestCases -->
+        <test-method status="PASS" signature="GetWeatherInDiffLangTest()[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="GetWeatherInDiffLangTest" duration-ms="67" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherInDiffLangTest -->
+        <test-method status="PASS" signature="StopTest(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="StopTest" is-config="true" duration-ms="35" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetWeatherInDiffLangTest status=SUCCESS method=WeatherAPITest.GetWeatherInDiffLangTest()[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@45667d98]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopTest -->
+        <test-method status="PASS" signature="setupTestCases(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="setupTestCases" is-config="true" duration-ms="4" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testautomation.APIAutomation.test.WeatherAPITest.GetWeatherInJSONFormatTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@65eabaab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestCases -->
+        <test-method status="PASS" signature="GetWeatherInJSONFormatTest()[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="GetWeatherInJSONFormatTest" duration-ms="77" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherInJSONFormatTest -->
+        <test-method status="PASS" signature="StopTest(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="StopTest" is-config="true" duration-ms="26" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetWeatherInJSONFormatTest status=SUCCESS method=WeatherAPITest.GetWeatherInJSONFormatTest()[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@65eabaab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopTest -->
+        <test-method status="PASS" signature="setupTestCases(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="setupTestCases" is-config="true" duration-ms="1" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testautomation.APIAutomation.test.WeatherAPITest.GetWeatherInXMLFormatTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7123be6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestCases -->
+        <test-method status="PASS" signature="GetWeatherInXMLFormatTest()[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="GetWeatherInXMLFormatTest" duration-ms="273" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherInXMLFormatTest -->
+        <test-method status="PASS" signature="StopTest(org.testng.ITestResult, [Ljava.lang.Object;)[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace]" name="StopTest" is-config="true" duration-ms="27" started-at="2020-03-10T22:13:53Z" finished-at="2020-03-10T22:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetWeatherInXMLFormatTest status=SUCCESS method=WeatherAPITest.GetWeatherInXMLFormatTest()[pri:0, instance:com.testautomation.APIAutomation.test.WeatherAPITest@3f49dace] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7123be6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopTest -->
+      </class> <!-- com.testautomation.APIAutomation.test.WeatherAPITest -->
+    </test> <!-- WeatherAPITest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
