@@ -68,34 +68,34 @@ public class WeatherAPITest extends BaseTest {
 		
 	
 	@Test
-	public void GetWeatherInJSONFormatTest() {
+	public void getWeatherInJSONFormatTest() {
 		assertTrue(getAPIValidatableResponse(reqSpec, resSpec, LOG, "getting weather data in JSON format"));
 	}
 	
 	@Test
-	public void GetWeatherInXMLFormatTest() {
+	public void getWeatherInXMLFormatTest() {
 		assertTrue(getAPIValidatableResponse(createQueryParam(reqSpec, "mode", "xml"), resSpec, LOG, "getting weather data in XML format"));
 	}
 
 	
 	@Test
-	public void GetTempInFahrenheitUnitTest() {
+	public void getTempInFahrenheitUnitTest() {
 		assertTrue(getAPIValidatableResponse(createQueryParam(reqSpec, "units", "imperial"), resSpec, LOG, "getting temperature data in imperial units"));
 	}
 	
 	@Test
-	public void GetTempInCelsiusUnitTest() {
+	public void getTempInCelsiusUnitTest() {
 		assertTrue(getAPIValidatableResponse(createQueryParam(reqSpec, "units", "metric"), resSpec, LOG, "getting temperature data in metric units"));
 	}
 	
 	@Test
-	public void GetWeatherInDiffLangTest() {
+	public void getWeatherInDiffLangTest() {
 		assertTrue(getAPIValidatableResponse(createQueryParam(reqSpec, "lang", "fr"), resSpec, LOG, "getting weather data in french language"));
 	}
 	
 	//This method runs after each test method and allows to report test results
 	@AfterMethod
-	public void	StopTest(ITestResult result, Object[] testArgs) {
+	public void	stopTest(ITestResult result, Object[] testArgs) {
 			reportTestResults(result);
 		}
 }
